@@ -7,8 +7,6 @@ PortWatch helps developers quickly inspect, filter, and manage running ports and
 
 Instead of juggling `ss`, `lsof`, `grep`, and `kill`, PortWatch gives you a clean live dashboard with process and project awareness.
 
----
-
 
 # 📸 Demo
 
@@ -24,7 +22,6 @@ Instead of juggling `ss`, `lsof`, `grep`, and `kill`, PortWatch gives you a clea
 pip install devportwatch
 ```
 
----
 
 # ▶️ Usage
 
@@ -34,15 +31,11 @@ pip install devportwatch
 devportwatch
 ```
 
----
-
 ## Live monitoring dashboard
 
 ```bash
 devportwatch live
 ```
-
----
 
 ## Filter by process
 
@@ -55,15 +48,12 @@ devportwatch python
 ```
 
 
----
-
 ## Kill process running on a port
 
 ```bash
 devportwatch kill 3000
 ```
 
----
 
 
 # ⚙️ Requirements
@@ -84,12 +74,6 @@ sudo pacman -S iproute2
 Pull requests are welcome.
 
 If you find a bug or have a feature idea, open an issue.
-
----
-
-# 📄 License
-
-MIT License
 
 ---
 
