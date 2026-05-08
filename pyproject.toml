@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devportwatch"
+version = "0.1.0"
+description = "Real-time developer port monitoring tool"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "rich"
+]
+
+authors = [
+    { name="eyeblech" }
+]
+
+license = { text = "MIT" }
+
+[project.scripts]
+devportwatch = "portwatch.cli:main"
